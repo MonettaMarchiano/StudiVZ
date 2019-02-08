@@ -18,8 +18,6 @@ server.addListener("listening", handleListen);
 server.addListener("request", handleRequest);
 server.listen(port);
 
-
-
 function handleListen(): void {
     console.log("Listening on port: " + port);
 }
